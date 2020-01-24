@@ -2,6 +2,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: 'Open-Sans';
+    color: #808080;
+}
 *,
 *::after,
 *::before {
@@ -14,4 +18,6 @@ html {
 @import 'headernavbar';
 @import 'auth/signin.scss';
 @import 'auth/signup.scss';
+
 @import 'page-title.scss';
+@import 'form-fields.scss';
